@@ -4,14 +4,14 @@
         <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
-        <form action="home.php" method="POST">
+        <form action="home.php" method="POST" class="patientform">
             <h1>Login</h1>
 
-            <label for="patientID">PatientID</label>
-            <input type="text" name="patientID" placeholder="1234-5678-9123" required>
+            <label for="patientID">PatientID</label><br>
+            <input type="text" name="patientID" placeholder="1234-5678-9123" required><br><br>
 
-            <label for="password">Password</label>
-            <input type="password" name="password" placeholder="xxxxxxxx" required>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" placeholder="xxxxxxxx" required><br><br>
 
             <input type="submit" value="Submit">
         </form>

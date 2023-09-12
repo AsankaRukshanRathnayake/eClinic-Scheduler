@@ -1,6 +1,8 @@
 <div>
     <p>Patient1</p>
     <p>1234-4567-8912</p>
+    <button onclick="redirect('logout.php')">Logout</button>
+
 </div>
 
 <div>

@@ -18,7 +18,7 @@
             
                 <p>Already have your personal doctors' recommedation? <br>Upload it here</p>
                 <form action="other/pending.php">
-                    <input type="file" name="recommendation" accept="image/jpg, image/jpeg, image/png">
+                    <input type="file" name="recommendation" accept="image/jpg, image/jpeg, image/png" required>
                     <input type="submit" name="upload" value="UPLOAD">
                 </form>
 
