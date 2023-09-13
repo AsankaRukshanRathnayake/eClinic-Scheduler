@@ -9,6 +9,36 @@
         </div>
 
         <div class="main">
+            <div class="topnavbar">
+                <h3>Old Schedule</h3>
+                <table>
+                    <tr>
+                        <td>Date</td>
+                        <td>01 Sep, 2023</td>
+                    </tr>
+                    <tr>
+                        <td>Time</td>
+                        <td>09.00am</td>
+                    </tr>
+                    <tr>
+                        <td>Room No</td>
+                        <td>56</td>
+                    </tr>
+                    <tr>
+                        <td>Chief Doctor</td>
+                        <td>Mr. Gamage</td>
+                    </tr>
+                    <tr>
+                        <td>Maximum available appointments</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>No of Shceduled patients</td>
+                        <td>23</td>
+                    </tr>
+
+                </table>
+            </div>
             <form action="home.php" method="POST">
                 <input type="hidden" name="clinicID">
 
