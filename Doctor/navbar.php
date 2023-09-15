@@ -5,11 +5,12 @@
 </div>
 
 <div>
-    <button onclick="redirect('home.php')">Home</button><br>
-    <button onclick="redirect('videocall.php')">Answer<br>Call</button><br>
-    <button onclick="redirect('externalrequests.php')">Requests/<br>Recommendations</button><br>
+    <button class="button1" onclick="redirect('home.php')">Home</button><br>
+    <button class="button1" onclick="redirect('videocall.php')">Answer<br>Call</button><br>
+    <button class="button1" onclick="redirect('externalrequests.php')">Requests/<br>Recommendations</button><br>
 </div>
 
 <div>
-    <button onclick="redirect('notifications.php')">Notifications</button>
+    <button class="button2" onclick="redirect('notifications.php')">Notifications</button>
+    <button class="button2" onclick="redirect('settings.php')"><i class="fa fa-gear"></i>Settings</button>
 </div>
