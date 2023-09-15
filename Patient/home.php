@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
@@ -10,13 +11,11 @@
 
         <div class="main">
             <div class="topnavbar">
-                <p>Get an appointment for a new clinic?</p>
-                <p>Click below to contact a doctor via video call</p>
-                <button onclick="redirect('videocall.php')">Video Call</button>
-            
-                <p>or</p>
-            
-                <p>Already have your personal doctors' recommedation? <br>Upload it here</p>
+                Get an appointment for a new clinic?<br>
+                Click below to contact a doctor via video call<br>
+                <button onclick="redirect('videocall.php')">Video Call</button><br>
+                &nbsp; &nbsp;or<br>
+                Already have your personal doctors' recommedation? <br>Upload it here
                 <form action="other/pending.php">
                     <input type="file" name="recommendation" accept="image/jpg, image/jpeg, image/png" required>
                     <input type="submit" name="upload" value="UPLOAD">
