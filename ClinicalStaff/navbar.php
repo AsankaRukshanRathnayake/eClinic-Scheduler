@@ -5,8 +5,8 @@
 </div>
 
 <div>
-    <button onclick="redirect('home.php')">Home</button><br>
-    <button onclick="redirect('registerPatient.php')">Register<br>Patient</button>
+    <button class="button1" onclick="redirect('home.php')">Home</button><br>
+    <button class="button1" onclick="redirect('registerPatient.php')">Register<br>Patient</button>
 </div>
 
 <div>
