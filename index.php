@@ -7,7 +7,7 @@
         <header>
             <h1>MyClinic</h1>
 
-            <button onclick="redirect('login.php')">Login</button>
+            <button onclick="redirect('Patient/login.php')">Login</button>
             <button onclick="redirect('Patient/register.php')">Register</button>
         </header>
 
