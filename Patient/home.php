@@ -26,31 +26,39 @@
                 </form>
             </div>
 
-            <table>
-                <tr>
-                    <td>01 Sep</td>
-                    <td>9.00am</td>
-                    <td>Dental Clinic</td>
-                    <td><button>Cancel</button></td>
-                    <td><button onclick="redirect('reschedule.php')">Reschedule</button></td>
-                </tr>
+            <div class="">
+                <div class="row">
+                    <div class="date">01<br>Sep</div>
+                    <div class="time">9.00am</div>
+                    <div class="clinicname">Dental Clinic</div>
+                    <button class="button4">Cancel</button>&nbsp;
+                    <button class="button4" onclick="redirect('reschedule.php')">Reschedule</button>
+                </div>
 
-                <tr>
-                    <td>01 Sep</td>
-                    <td>9.00am</td>
-                    <td>Dental Clinic</td>
-                    <td><button>Cancel</button></td>
-                    <td><button onclick="redirect('reschedule.php')">Reschedule</button></td>
-                </tr>
+                <div class="row">
+                    <div class="date">01<br>Sep</div>
+                    <div class="time">9.00am</div>
+                    <div class="clinicname">Dental Clinic</div>
+                    <button class="button4">Cancel</button>&nbsp;
+                    <button class="button4" onclick="redirect('reschedule.php')">Reschedule</button>
+                </div>
 
-                <tr>
-                    <td>01 Sep</td>
-                    <td>9.00am</td>
-                    <td>Dental Clinic</td>
-                    <td><button>Cancel</button></td>
-                    <td><button onclick="redirect('reschedule.php')">Reschedule</button></td>
-                </tr>
-            </table>
+                <div class="row">
+                    <div class="date">01<br>Sep</div>
+                    <div class="time">9.00am</div>
+                    <div class="clinicname">Dental Clinic</div>
+                    <button class="button4">Cancel</button>&nbsp;
+                    <button class="button4" onclick="redirect('reschedule.php')">Reschedule</button>
+                </div>
+
+                <div class="row">
+                    <div class="date">01<br>Sep</div>
+                    <div class="time">9.00am</div>
+                    <div class="clinicname">Dental Clinic</div>
+                    <button class="button4">Cancel</button>&nbsp;
+                    <button class="button4" onclick="redirect('reschedule.php')">Reschedule</button>
+                </div>
+            </div>
         </div>
 
         <script src="../js/script.js"></script>
