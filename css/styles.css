@@ -4,8 +4,8 @@ html,body{
     display:flex;
     width:100%;
     height:100vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.4rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
 }
 
 .patientform{
@@ -30,7 +30,7 @@ html,body{
 .topnavbar{
     width:94%;
     padding:1% 3% 3% 3%;
-    background-color:rgb(29, 166, 200);
+    background-color:rgb(135, 215, 235);
 }
 
 /* video call*/
@@ -111,6 +111,44 @@ html,body{
     margin-top:0.2rem;
     margin-bottom: 0.2rem;
     font-size: 0.7rem;
+}
+
+.button4{
+    background-color: aliceblue;
+    color:black;
+    max-height: 3rem;
+    min-width: 7rem;
+    margin:0rem 0.5rem 0rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+}
+
+.datentime{
+
+}
+
+.row{
+    margin:1% 5% 1% 5%;
+    padding: 1% 3% 1% 3%;
+    width:84%;
+    display: flex;
+    border-radius: 12rem;
+    border: 1px solid blue;
+}
+
+.time{
+    min-width: 8rem;
+    text-align: center;
+}
+
+.clinicname{
+    min-width: 16rem;
+    text-align: center;
+}
+
+.date{
+    min-width: 8rem;
+    text-align: center;
 }
 
 
