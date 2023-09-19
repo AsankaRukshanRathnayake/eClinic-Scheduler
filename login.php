@@ -4,10 +4,10 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <form action="home.php" method="POST" class="patientform">
+        <form action="ClinicalStaff/home.php" method="POST" class="patientform">
             <h1>Login</h1>
 
-            <label for="patientID">PatientID</label><br>
+            <label for="patientID">Service ID</label><br>
             <input type="text" name="patientID" placeholder="1234-5678-9123" required><br><br>
 
             <label for="password">Password</label><br>
