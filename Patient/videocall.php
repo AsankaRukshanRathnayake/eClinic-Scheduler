@@ -1,16 +1,17 @@
 <!DOCTYPE html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
         <div class="sidenavbar">
-
+            <?php include 'navbar.php'; ?>
         </div>
 
         <div class="main">
             <div class="video">
-
+                <h2 style="color:red">video</h2>
             </div>
             
             <div class="videoactions">
