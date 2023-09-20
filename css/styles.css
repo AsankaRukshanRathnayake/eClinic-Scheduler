@@ -13,7 +13,8 @@ html,body{
     margin:auto;
     padding:4% 5% 4% 5%;
     border:2px solid black;
-    border-radius: 15px;
+    border-radius: 4rem;
+    background-color: rgb(172, 221, 234);
 }
 
 .sidenavbar{
@@ -149,6 +150,105 @@ html,body{
 .date{
     min-width: 8rem;
     text-align: center;
+}
+
+.index{
+    margin:auto;
+    text-align: center;
+}
+
+.index h1{
+    font-size: 3rem;
+    color:rgb(1, 6, 21);
+    padding-bottom: 2rem;
+}
+
+.index button{
+    min-width: 6rem;
+    min-height: 2rem;
+    border:1px solid rgb(135, 215, 235);
+    background-color: rgb(135, 215, 235);
+    border-radius:2rem;
+    padding:auto;
+    color:rgb(1, 6, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+}
+
+.index button:hover{
+    min-width: 6rem;
+    min-height: 2rem;
+    border:1px solid rgb(1, 6, 21);
+    background-color: rgb(1, 6, 21);
+    border-radius:2rem;
+    padding:auto;
+    color:rgb(135, 215, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+}
+
+
+.index p{
+    color:rgb(1, 6, 21);
+    font-size: 1.3rem;
+    margin-top:4.5rem;
+}
+
+.login{
+    margin:auto;
+    text-align: center;
+}
+
+.login h1{
+    font-size: 3rem;
+    color:rgb(1, 6, 21);
+    padding-bottom: 2rem;
+}
+
+.login .submit{
+    min-width: 5rem;
+    min-height: 2rem;
+    border:1px solid rgb(135, 215, 235);
+    background-color: rgb(135, 215, 235);
+    border-radius:2rem;
+    padding:auto;
+    color:rgb(1, 6, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+}
+
+.login .submit:hover{
+    min-width: 5rem;
+    min-height: 2rem;
+    border:1px solid rgb(1, 6, 21);
+    background-color: rgb(1, 6, 21);
+    border-radius:2rem;
+    padding:auto;
+    color:rgb(135, 215, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+}
+
+.login label{
+    text-align: left;
+    margin-top:2rem;
+    margin-bottom: 10rem;
+}
+
+.login input{
+    width: 12rem;
+    padding:0.4rem 0.8rem 0.4rem 0.8rem;
+    font-size: 1rem;
+    border:1px solid rgb(135, 215, 235);
+    border-radius: 0.7rem;
+    background-color: white;
+}
+
+
+.index p{
+    color:rgb(1, 6, 21);
+    font-size: 1.3rem;
+    margin-top:4.5rem;
 }
 
 
