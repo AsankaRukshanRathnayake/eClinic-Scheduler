@@ -1,18 +1,23 @@
 <!DOCTYPE html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
-        <header>
-            <h1>MyClinic</h1>
+    <body style="background-image: url('images/background.jpg');">
+        <div class="index">
+            <h1>eClinic Scheduler</h1>
 
-            <button onclick="redirect('Patient/login.php')">Login</button>
-            <button onclick="redirect('Patient/register.php')">Register</button>
-        </header>
+            <div class="buttons">
+                <button onclick="redirect('Patient/login.php')">Login</button> &nbsp;
+                <button onclick="redirect('Patient/register.php')">Register</button>
+            </div>
+
+            <p>Created by Asanka Rukshan Rathnayake</p>
+
+        </div>
 
         <footer>
-            Created by Asanka Rukshan Rathnayake
+            
         </footer>
 
         <script src="js/script.js"></script>
