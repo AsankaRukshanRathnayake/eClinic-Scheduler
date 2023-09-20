@@ -46,7 +46,7 @@
         <title>User Registration</title>
     </head>
 
-    <body>
+    <body  style="background-image: url('../images/background.jpg');">
         <?php if ($step == 1): ?>
             <form method="POST" class="patientform">
                 <h1>Step 1</h1>
