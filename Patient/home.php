@@ -3,6 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <div class="sidenavbar">
@@ -26,7 +27,7 @@
                 </form>
             </div>
 
-            <div class="">
+            <div class="patienthome">
                 <div class="row">
                     <div class="date">01<br>Sep</div>
                     <div class="time">9.00am</div>
